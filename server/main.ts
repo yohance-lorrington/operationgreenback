@@ -12,7 +12,7 @@ Accounts.config({
 Meteor.startup(() => {
   // If the Links collection is empty, add some data.
   if (process.env.NODE_ENV !== 'production') {
-    const res = dotenv.config({path:'C:\\Users\\Tabahani\\Documents\\codingstuff\\.env'});
+    const res = dotenv.config();
 
   }
 
