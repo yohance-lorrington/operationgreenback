@@ -1,6 +1,6 @@
 import { Mongo } from "meteor/mongo";
 import axios from 'axios'
-const IEX_TOKEN = 'pk_104b0734c0614d12844b2585eb3d3400'
+const IEX_TOKEN = ''
 export interface StockSchema {
     _id:string,
     ticket: string,
